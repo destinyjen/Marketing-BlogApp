@@ -1,0 +1,56 @@
+.header {
+    border-bottom: thick double black;
+    padding: 20px;
+    margin: 5px;
+    background-color: beige;
+}
+
+.leftheader {
+    border-right: thick double  black;
+    text-align: left;
+    float: left;
+    padding: 225px;
+    background-color: beige;
+}
+
+.rightheader {
+    text-align: right;
+    display: inline-block;
+    padding: 180px;
+    float: right;
+    margin: 5px;
+}
+
+#form {
+    text-align: top;
+    display: inline-block;
+    padding: 15px;
+}
+
+#form div {
+    padding: 5px;
+}
+
+#form label {
+    text-align: right;
+}
+
+#form textarea {
+    width: 150px;
+}
+
+#form input {
+    width: 150px;
+}
+
+footer {
+    padding: 10px;
+    margin: 0;
+    border-top: thick double black;
+}
+
+
+
+h2 {
+    color: black
+}
