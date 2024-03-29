@@ -43,15 +43,14 @@ main > section:first-child {
 #form input {
     width: 150px;
 }
+article {
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     padding: 10px;
     margin: 0;
     border-top: thick double black;
-}
-
-
-
-h2 {
-    color: black
+    
 }

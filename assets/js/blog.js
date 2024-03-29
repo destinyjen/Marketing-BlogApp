@@ -24,8 +24,12 @@ for (let index = 0; index < blogPosts.length; index++) {
    article.appendChild(username);
 
    blogContent.appendChild(article);
-
 }
+
+document.getElementById("btn").onclick = function () {
+    window.location.href = "index.html";
+};
+
 
 
 
