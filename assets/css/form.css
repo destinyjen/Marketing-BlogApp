@@ -1,3 +1,8 @@
+body > div {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     border-bottom: thick double black;
     padding: 20px;
@@ -5,34 +10,30 @@
     background-color: beige;
 }
 
-.leftheader {
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section {
+    flex: 1 0 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display:block;
+}
+
+main > section:first-child {
     border-right: thick double  black;
-    text-align: left;
-    float: left;
-    padding: 225px;
     background-color: beige;
-}
-
-.rightheader {
-    text-align: right;
-    display: inline-block;
-    padding: 180px;
-    float: right;
-    margin: 5px;
-}
-
-#form {
-    text-align: top;
-    display: inline-block;
-    padding: 15px;
 }
 
 #form div {
     padding: 5px;
-}
-
-#form label {
-    text-align: right;
 }
 
 #form textarea {
