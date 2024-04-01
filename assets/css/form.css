@@ -17,12 +17,17 @@ main {
 
 main > section {
     flex: 1 0 250px;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
-
+h2 {
+    font-size: 45px;
+    padding: 35px;
+    padding-left: 70px;
+}
 label {
     display:block;
 }
@@ -30,6 +35,9 @@ label {
 main > section:first-child {
     border-right: thick double  black;
     background-color: beige;
+}
+#form {
+    padding: 70px;
 }
 
 #form div {
@@ -43,14 +51,37 @@ main > section:first-child {
 #form input {
     width: 150px;
 }
+
+img {
+    width: 30%;
+    padding-right: 5%;
+}
+
+.rightside {
+    display: contents;
+}
+
 article {
     justify-content: center;
     align-items: center;
+    display: flex;
+    border-top: double thick black;
 }
 
 footer {
     padding: 10px;
     margin: 0;
-    border-top: thick double black;
-    
+}
+
+article > footer > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
 }

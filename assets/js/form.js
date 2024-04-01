@@ -3,6 +3,7 @@ const title = document.getElementById("title");
 const content = document.getElementById("content");
 const form = document.querySelector("form");
 
+
 form.addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -10,7 +11,9 @@ form.addEventListener("submit", function (event) {
     username: username.value,
     title: title.value,
     content: content.value,
+    
   };
+
 // get the blog post array from local storage
 const storedPosts = JSON.parse(localStorage.getItem("blogPosts"));
 console.log(storedPosts,localStorage.getItem("blogPosts"));
